@@ -1,0 +1,381 @@
+/* Basic CSS for the page */
+@import url('https://fonts.cdnfonts.com/css/knewave');
+
+body {
+    font-family: 'Knewave', sans-serif;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #44438f;
+    background-image: linear-gradient(90deg,
+            hsl(221deg 100% 50%) 0%,
+            hsl(216deg 100% 49%) 14%,
+            hsl(213deg 100% 49%) 26%,
+            hsl(209deg 100% 48%) 36%,
+            hsl(206deg 100% 47%) 44%,
+            hsl(203deg 100% 47%) 49%,
+            hsl(200deg 100% 46%) 52%,
+            hsl(197deg 100% 45%) 57%,
+            hsl(194deg 100% 44%) 63%,
+            hsl(190deg 100% 44%) 71%,
+            hsl(187deg 100% 43%) 80%,
+            hsl(184deg 100% 42%) 89%,
+            hsl(181deg 100% 41%) 100%);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+header h1 {
+    font-size: 160px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.socials {
+    width: fit-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+svg {
+    width: 120px;
+    height: 120px;
+
+}
+
+path {
+    fill: #ffffff;
+    font-weight: 300;
+    stroke: #000000;
+    stroke-width: 0.4px;
+    animation: rainbow 1s linear infinite;
+}
+
+
+.copycontract {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: -10%;
+}
+
+.copycontract button {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.copycontract h3 {
+    margin-left: 10px;
+    width: 1280px;
+}
+
+
+h3 {
+    background-color: #44438f;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 27px;
+    -webkit-text-stroke-width: 0px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Button style */
+button {
+    -webkit-text-stroke-width: 0px;
+    background-color: #44438f;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    height: 58px;
+    font-family: 'Knewave', sans-serif;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    height: auto;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #44438f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0%;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    display: flex;
+    width: fit-content;
+    margin-bottom: -8%;
+    margin-top: 0%;
+}
+
+
+.infoinner {
+    padding: 10px;
+    margin: 1px;
+
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: white;
+    width: 500px;
+    height: 500px;
+    margin-top: 7%;
+    /* display: inline-block; */
+}
+
+
+.infoinner2 {
+    padding: 10px;
+    margin: 1px;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+}
+
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+    height: 80%;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #1024ff;
+    border-width: 4px;
+    border-radius: 400px;
+    background-image: url("basechain.png");
+    background-size: cover;
+}
+
+.tokenomics {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.info2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.tokenomicscard {
+    padding: 10px;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 350px;
+    height: auto;
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background-color: #44438f;
+    /* display: inline-block; */
+}
+
+.tokenomicscard p {
+    margin: 0%;
+    font-size: 70px;
+}
+
+.cool{
+    display: block;
+    position: relative;
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 300px;
+}
+
+.aimage{
+    display: block;
+    position: absolute;
+    margin-left: 37%;
+}
+
+.aimaelogo{
+
+    z-index: -1;
+    width: 450px;
+    margin-left: 35%;
+}
+
+
+.baseart{
+    z-index: -1;
+    margin-top: 2.7%;
+    display: block;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: 60%;
+    animation: rotate 5s linear infinite;  /* Rotate the image continuously */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);  /* Starting position */
+  }
+  100% {
+    transform: rotate(360deg);  /* Full rotation */
+  }
+}
+
+.howtobuycard {
+    padding: 10px;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 1500px;
+    height: auto;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgba(255, 0, 0, 0);
+    background-color: #44438f;
+    /* display: inline-block; */
+}
+
+.disclaimer {
+    background-color: #1024ff;
+    -webkit-text-stroke-width: 0px;
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0;
+}
+
+.howtobuycard h3 {
+    font-size: 25px;
+    margin-top: 0%;
+    background-color: transparent;
+    border-style: none;
+}
+
+
+/* particles stuff */
+
+
+#particles-js {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+
+#particles-js2 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+
+#particles-js3 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+#particles-js4 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}

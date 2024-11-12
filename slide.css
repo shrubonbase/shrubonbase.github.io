@@ -1,0 +1,83 @@
+/* Container to hold the sliding text */
+.slide-container {
+    position: relative;
+    background-color: #44438f;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+}
+
+/* Keyframes to move text in a loop */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Duplicating the text for seamless effect */
+.slide-container .inner {
+    display: flex;
+}
+
+
+
+/* Text to slide in a cyclic manner */
+.slide-text {
+    margin-top: 5px;
+    z-index: 100;
+    display: inline-block;
+    white-space: nowrap;
+    animation: slide 15s linear infinite;
+    font-weight: 100;
+    font-size: 40px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:     <div class="slide-container">
+    <div class="slide-text">
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+        SHRUB -
+    </div>
+</div>;
+}
